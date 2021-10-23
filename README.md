@@ -3,6 +3,8 @@
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
+
+
 - W projekcie wykorzystamy virtual environment, dla utworzenia hermetycznego środowisko dla aplikacji:
 
   ```
@@ -18,9 +20,23 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ pip list
   ```
 
+  - Instalacja zalenoznosci za pomoca make:
+
+    ```
+    $ make deps
+
+    ```
+
   Sprawdź: [tutorial venv](https://docs.python.org/3/tutorial/venv.html) oraz [biblioteki flask](http://flask.pocoo.org).
 
-- Uruchamianie applikacji:
+  - Uruchamianie aplikacji za pomoca make (Opcja 1):
+
+    ```
+    $ make run
+
+    ```
+
+- Uruchamianie applikacji (Opcja 2):
 
   ```
   # jako zwykły program
@@ -30,7 +46,14 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ PYTHONPATH=. FLASK_APP=hello_world flask run
   ```
 
-- Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
+  - Uruchamianie testow za pomoca make (Opcja 1):
+
+    ```
+    $ make test
+
+    ```
+
+- Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html) (Opcja 2):
 
   ```
   $ PYTHONPATH=. py.test
@@ -47,7 +70,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
   ...
 
-  # aktywacja 
+  # aktywacja
   $ source .venv/bin/activate
   ```
 
