@@ -5,7 +5,7 @@ deps:
 	pip install -r test_requirements.txt
 
 lint:
-	flake8 --per-file-ignores="hello_world/__init__.py:W292" hello_world test
+	flake8 hello_world test
 
 test:
 	PYTHONPATH=. py.test --verbose -s
