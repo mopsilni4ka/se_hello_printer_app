@@ -13,5 +13,6 @@ class TestFormater(unittest.TestCase):
 
     def test_xml(self):
         imie = "Natalia"
-        r = format_to_xml("XYZ", imie)
-        print (r)
+        rv = format_to_xml("XYZ", imie)
+        print (rv)
+        self.assertEqual("<greetings>\n\t<name>Natalia</name>\n\t<msg>XYZ</msg>\n</greetings>", rv)
