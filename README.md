@@ -20,7 +20,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ pip list
   ```
 
-  - Instalacja zalenoznosci za pomoca make:
+- Instalacja zalenoznosci za pomoca make:
 
     ```
     $ make deps
@@ -29,7 +29,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   Sprawdź: [tutorial venv](https://docs.python.org/3/tutorial/venv.html) oraz [biblioteki flask](http://flask.pocoo.org).
 
-  - Uruchamianie aplikacji za pomoca make (Opcja 1):
+- Uruchamianie aplikacji za pomoca make (Opcja 1):
 
     ```
     $ make run
@@ -46,7 +46,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ PYTHONPATH=. FLASK_APP=hello_world flask run
   ```
 
-  - Uruchamianie testow za pomoca make (Opcja 1):
+- Uruchamianie testow za pomoca make (Opcja 1):
 
     ```
     $ make test
