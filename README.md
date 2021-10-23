@@ -13,19 +13,22 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   # aktywowanie hermetycznego środowiska
   $ source .venv/bin/activate
+  ```
+- Instalacja zalenoznosci za pomoca make:
+
+      ```
+      $ make deps
+
+      ```
+  Lub
+
+  ```      
   $ pip install -r requirements.txt
   $ pip install -r test_requirements.txt
 
   # zobacz
   $ pip list
   ```
-
-- Instalacja zalenoznosci za pomoca make:
-
-    ```
-    $ make deps
-
-    ```
 
   Sprawdź: [tutorial venv](https://docs.python.org/3/tutorial/venv.html) oraz [biblioteki flask](http://flask.pocoo.org).
 
