@@ -1,6 +1,7 @@
 import unittest
 from hello_world import app
 from hello_world.formater import SUPPORTED
+import hello_world.views
 
 
 class FlaskrTestCase(unittest.TestCase):
@@ -16,4 +17,4 @@ class FlaskrTestCase(unittest.TestCase):
     def test_msg_with_output(self):
         rv = self.app.get('/?output=json')
         self.assertEqual(b'{ "imie": "Kseniya", \
-        "msg": "Hello World!" }', rv.data)
+"msg": "Hello World!" }', rv.data)
