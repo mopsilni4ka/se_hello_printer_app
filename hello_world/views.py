@@ -9,7 +9,7 @@ msg = "Hello World!"
 
 @app.route('/')
 def index():
-    name = request.args.get('name', default = moje_imie, type = str)
+    name = request.args.get('name', default=moje_imie, type=str)
     output = request.args.get('output')
     if not output:
         output = PLAIN
