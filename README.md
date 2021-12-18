@@ -3,6 +3,9 @@
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
+[![Build Status](https://app.travis-ci.com/mopsilni4ka/se_hello_printer_app.svg?branch=master)](https://app.travis-ci.com/mopsilni4ka/se_hello_printer_app)
+
+<a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=N8ZHL3j7k1&Days=1&Design=1" /></a>
 
 
 - W projekcie wykorzystamy virtual environment, dla utworzenia hermetycznego środowisko dla aplikacji:
@@ -110,3 +113,4 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
+- monitoring w statuscake
