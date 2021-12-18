@@ -8,3 +8,7 @@ script:
   - make docker_build
 after_success:
   - make docker_push
+deploy:
+  provider: heroku
+  api_key:
+    secure: "${HEROKU_API_KEY}"
